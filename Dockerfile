@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Your Name "rgray26@cmc.edu"
+LABEL YourName="rgray26@cmc.edu"
 
 RUN apt-get update -y && \
     apt-get install -y python3 python3-pip python3-venv
